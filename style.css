@@ -1,0 +1,93 @@
+body {
+
+    background-color: hsl(180, 52%, 96%);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;  
+}
+ .body-image img{
+    min-width: 100%;
+    margin-bottom:100px;
+}
+
+
+ /* -Light Grayish Cyan (Background): hsl(180, 52%, 96%)
+- Light Grayish Cyan (Filter Tablets): hsl(180, 31%, 95%)
+- Dark Grayish Cyan: hsl(180, 8%, 52%)
+- Very Dark Grayish Cyan: hsl(180, 14%, 20%) */
+
+
+.job-listings {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.job {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.job-header {
+    display: flex;
+    align-items: center;
+    
+}
+
+.job-header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.job-title h3 {
+    font-size: 1.5em;
+    margin: 0;
+    }
+
+.badge {
+    background-color: #5ba4a4;
+    color: #ffffff;
+    border-radius: 12px;
+    font-size: 0.7em;
+    padding: 4px 8px;
+    margin-left: 10px;
+
+}
+
+.new {
+    background-color: hsl(180, 8%, 52%);
+}
+
+.featured {
+    background-color:hsl(180, 14%, 20%) ;
+}
+
+.job-details {
+    display: flex;
+    margin: 10px 0;
+    font-size: 0.9em;
+    gap: 10px;
+}
+.job-tags{
+    display: flex;
+    flex-direction: flex;
+    margin: 10px 0;
+    font-size: 0.9em;
+    gap: 10px;
+}
+
+.job-tags span {
+    background-color: #eef6f6;
+    color: #5ba4a4;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+
+}
